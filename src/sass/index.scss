@@ -1,1 +1,15 @@
-@import './common';
+//*                             base
+@import './base/common';
+@import './base/reset';
+
+//*                             components
+@import './components/btn';
+@import './components/container';
+
+//*                             layouts
+@import './layouts/header';
+@import './layouts/footer';
+
+//*                             utils
+@import './utils/hidden';
+@import './utils/variables';
