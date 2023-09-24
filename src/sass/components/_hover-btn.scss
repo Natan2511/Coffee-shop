@@ -1,0 +1,18 @@
+.hover:hover,
+.hover:focus{
+    transition: var(--transition-animation);
+    color: var(--light-orange);
+}
+
+.hover--icons:hover,
+.hover--icons:focus{
+    transition: var(--transition-animation);
+    fill: var(--orange);
+}
+
+.hover--btn:hover,
+.hover--btn:focus{
+    transition: var(--transition-animation);
+    background: var(--orange);
+    border: 2px solid var(--white);
+}

@@ -1,0 +1,51 @@
+.hero{
+    background: url(..//..//images/hero/coffee-shop\(bg\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    &::after{
+        width: 100%;
+        height: 100%;
+        
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--hero-after);
+    }
+    &__wrapper{
+        position: relative;
+        z-index: 2;
+        max-width: 571px;
+        padding: 200px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+            
+        &>h1 {
+            font-size: 55px;
+            font-weight: 900;
+            line-height: 144%;
+        
+            text-transform: uppercase;
+        }
+
+        &>p {
+            color: var(--very-light-gray);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    &__btn{
+        display: flex;
+        gap: 20px;
+
+        &>button {
+            width: 250px;
+            height: 50px;
+        }
+    }
+}
